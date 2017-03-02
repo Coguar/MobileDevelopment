@@ -17,14 +17,11 @@
         android:layout_centerHorizontal="true"
         >
 
-        <fragment
-            android:id="@+id/listFragment"
-            android:name="com.example.notes.NoteFragment"
+
+        <ListView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:layout="@android:layout/list_content"
-            android:layout_weight="9">
-        </fragment>
+            android:layout_height="400dp"
+            android:id="@+id/list"/>
 
         <Button
             android:text="Add New Note"
