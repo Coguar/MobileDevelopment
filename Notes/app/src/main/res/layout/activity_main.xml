@@ -11,27 +11,25 @@
     tools:context="com.example.notes.MainActivity">
 
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerHorizontal="true"
-        >
+        android:orientation="vertical">
 
         <fragment
             android:id="@+id/listFragment"
             android:name="com.example.notes.NoteFragment"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            tools:layout="@android:layout/list_content"
-            android:layout_weight="9">
-        </fragment>
+            android:layout_weight="9"
+            tools:layout="@android:layout/list_content"/>
 
         <Button
-            android:text="Add New Note"
+            android:id="@+id/addBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/addBtn"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:text="@string/add_new_note_btn" />
     </LinearLayout>
 
 </RelativeLayout>

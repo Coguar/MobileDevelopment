@@ -4,21 +4,21 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:paddingLeft="8dp"
-    android:paddingRight="8dp" >
+    android:paddingRight="8dp">
 
     <ListView
         android:id="@id/android:list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1"
+        android:choiceMode="singleChoice"
         android:drawSelectorOnTop="false"
-        android:headerDividersEnabled="false"
-        android:choiceMode="singleChoice"/>
+        android:headerDividersEnabled="false" />
 
     <TextView
         android:id="@id/android:empty"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Нет данных" />
+        />
 
 </LinearLayout>

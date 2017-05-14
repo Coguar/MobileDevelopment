@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Notes</string>
+    <string name="add_btn">Add</string>
+    <string name="add_new_note_btn">Add new note</string>
+
+    <string name="ph_title">Enter title here . . .</string>
+    <string name="ph_description">Enter note description . . .</string>
+
+    <string name="delete_note">Delete note</string>
+    <string name="update_note">Update note</string>
+    <string name="extra_record_id">RecordId</string>
+    <string name="extra_is_update_flag">isUpdate</string>
+    <string name="done">Done</string>
+    <string name="not_done">Not Done</string>
+    <string name="low">Low</string>
+    <string name="middle">Middle</string>
+    <string name="high">High</string>
 </resources>
